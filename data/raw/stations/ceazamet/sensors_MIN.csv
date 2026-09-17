@@ -1,0 +1,24 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:45:39
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:45:41, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+MIN,MINTA,Temperatura del Aire,°C,2,2026-08-08 01:00:00,
+MIN,MINHR,Humedad Relativa,%,2,2026-08-08 01:00:00,
+MIN,MINVV,Velocidad de Viento,m/s,5,2026-08-08 01:00:00,
+MIN,MINDV,Dirección de viento,°,5,2026-08-08 01:00:00,
+MIN,MINRP,Radiación PAR,umol/m²*s,2,2026-08-08 01:00:00,
+MIN,MINRS2,Radiación Solar,W/m²,3,2026-08-08 01:00:00,
+MIN,MINPA,Presión Atmosférica,hPa,2,2026-08-08 01:00:00,
+MIN,MINPP,Precipitación,mm,1,2026-08-08 01:00:00,
+MIN,MINTS2,Temperatura de Suelo,°C,-0.5,2026-08-08 01:00:00,
+MIN,MINTS1,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+MIN,MINset0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+MIN,MINPR,Punto de Rocío,°C,2,2026-08-08 01:00:00,
+MIN,MINshf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+MIN,MINsgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+MIN,MINsufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+MIN,MINROLN,Radiación Onda Larga Neta,W/m²,3,2026-08-08 01:00:00,
+MIN,MINROLI,Radiación Onda Larga Incidente,W/m²,3,2026-08-08 01:00:00,
+MIN,MINROLIT,Temperatura Sensor,°C,3,2026-08-08 01:00:00,
+MIN,MINBT,Batería,V,1.5,2026-08-08 01:00:00,

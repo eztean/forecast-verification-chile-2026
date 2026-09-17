@@ -1,0 +1,19 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:37:47
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:37:49, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+LSC,LSCTA,Temperatura del Aire,°C,3,2026-08-08 01:00:00,
+LSC,LSCHR,Humedad Relativa,%,3,2026-08-08 01:00:00,
+LSC,LSCVV,Velocidad de Viento,m/s,10,2026-08-08 01:00:00,
+LSC,LSCDV,Dirección de viento,°,10,2026-08-08 01:00:00,
+LSC,LSCRS2,Radiación Solar,W/m²,10,2026-08-08 01:00:00,
+LSC,LSCRSDIF,Radiacion Solar Difusa,W/m²,2,2026-08-08 01:00:00,
+LSC,LSCPA,Presión Atmosférica,hPa,2,2026-08-08 01:00:00,
+LSC,LSCRSDIR,Radiacion Solar Directa,W/m²,2,2026-08-08 01:00:00,
+LSC,LSCPP,Precipitación,mm,3,2026-08-08 01:00:00,
+LSC,LSCset0,Evapotranspiración,mm,0.1,2026-08-03 00:00:00,
+LSC,LSCPR,Punto de Rocío,°C,1.5,2026-08-08 01:00:00,
+LSC,LSCshf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+LSC,LSCsufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+LSC,LSCBT,Batería,V,1.5,2026-08-08 01:00:00,

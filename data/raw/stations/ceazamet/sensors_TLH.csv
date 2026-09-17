@@ -1,0 +1,21 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:42:13
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:42:15, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+TLH,TLHTA,Temperatura del Aire,°C,2,2026-08-07 20:00:00,
+TLH,TLHHR,Humedad Relativa,%,2,2026-08-07 20:00:00,
+TLH,TLHVV5,Velocidad de Viento,m/s,5,2026-08-07 20:00:00,
+TLH,TLHDV5,Dirección de viento,°,5,2026-08-07 20:00:00,
+TLH,TLHRSTM,Radiación Solar,W/m²,3,2026-08-07 20:00:00,
+TLH,TLHPP,Precipitación,mm,1.5,2026-08-07 20:00:00,
+TLH,TLHTS2,Temperatura de Suelo,°C,-0.5,2026-08-07 20:00:00,
+TLH,TLHTS1,Temperatura de Suelo,°C,-0.1,2026-08-07 20:00:00,
+TLH,TLHset0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+TLH,TLHPR,Punto de Rocío,°C,0,2026-08-07 20:00:00,
+TLH,TLHsufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+TLH,TLHshf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+TLH,TLHsgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+TLH,TLHHSCUL,Otro,U,-0.1,2026-08-07 20:00:00,
+TLH,TLHHS10,Otro,U,-0.1,2026-08-07 20:00:00,
+TLH,TLHBT,Batería,V,1.5,2026-08-07 20:00:00,

@@ -1,0 +1,9 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:42:49
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-07-21, end_date: 2026-07-24, sensor_code: INIA319PP, gmt: gmt-4
+#s_cod,ultima_lectura,min,prom,max,data_pc
+INIA319PP,2026-07-21 00:00:00,10.4,10.4,10.4,100
+INIA319PP,2026-07-22 00:00:00,0,0,0,100
+INIA319PP,2026-07-23 00:00:00,0.6,0.6,0.6,100
+INIA319PP,2026-07-24 00:00:00,0,0,0,100

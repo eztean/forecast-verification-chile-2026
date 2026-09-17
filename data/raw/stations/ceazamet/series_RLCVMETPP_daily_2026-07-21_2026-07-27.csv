@@ -1,0 +1,12 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:47:24
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-07-21, end_date: 2026-07-27, sensor_code: RLCVMETPP, gmt: gmt-4
+#s_cod,ultima_lectura,min,prom,max,data_pc
+RLCVMETPP,2026-07-21 00:00:00,,,,0
+RLCVMETPP,2026-07-22 00:00:00,,,,0
+RLCVMETPP,2026-07-23 00:00:00,,,,0
+RLCVMETPP,2026-07-24 00:00:00,,,,0
+RLCVMETPP,2026-07-25 00:00:00,,,,0
+RLCVMETPP,2026-07-26 00:00:00,,,,0
+RLCVMETPP,2026-07-27 00:00:00,,,,0

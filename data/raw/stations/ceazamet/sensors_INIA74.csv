@@ -1,0 +1,16 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:42:55
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:42:57, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+INIA74,INIA1740,Temperatura del Aire,°C,1.5,2025-06-20 23:00:00,
+INIA74,INIA1743,Humedad Relativa,%,1.5,2025-06-20 23:00:00,
+INIA74,INIA1752,Velocidad de Viento,m/s,2,2025-06-20 23:00:00,
+INIA74,INIA1754,Dirección de viento,°,2,2025-06-20 23:00:00,
+INIA74,INIA1746,Radiación Solar,W/m²,2,2022-06-14 08:00:00,
+INIA74,INIA1751,Presión Atmosférica,hPa,2,2025-06-20 23:00:00,
+INIA74,INIA74set0,Evapotranspiración,mm,0.1,2022-06-13 00:00:00,
+INIA74,INIA74sufu,Unidades de Frio Utah,hf,2,2025-06-20 23:00:00,
+INIA74,INIA74shf7,Horas Frio Base 7,hf,2,2025-06-20 00:00:00,
+INIA74,INIA74sgd10,Grados Dia Base 10,gd,2,2025-06-20 00:00:00,
+INIA74,INIA1755,Batería,V,1.5,2015-06-12 07:45:00,

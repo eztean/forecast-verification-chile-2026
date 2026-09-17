@@ -1,0 +1,20 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:44:56
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:44:58, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+CHLC,CHLCTA,Temperatura del Aire,°C,1.5,2012-04-03 16:45:00,
+CHLC,CHLCHR,Humedad Relativa,%,1.5,2012-04-03 16:45:00,
+CHLC,CHLCVV,Velocidad de Viento,m/s,2,2012-04-03 16:45:00,
+CHLC,CHLCDV,Dirección de viento,°,2,2012-04-03 16:45:00,
+CHLC,CHLCRSP,Radiación PAR,W/m²,2,2012-04-03 16:45:00,
+CHLC,CHLCRS,Radiación Solar,W/m²,2,2012-04-03 16:45:00,
+CHLC,CHLCPP,Precipitación,mm,1.5,2012-04-03 16:45:00,
+CHLC,CHLCTS2,Temperatura de Suelo,°C,-0.5,2012-04-03 16:45:00,
+CHLC,CHLCTS1,Temperatura de Suelo,°C,-0.1,2012-04-03 16:45:00,
+CHLC,CHLCET0,Evapotranspiración,mm,0.1,2012-04-03 16:45:00,
+CHLC,CHLCset0,Evapotranspiración,mm,0.1,2012-04-03 00:00:00,
+CHLC,CHLCsufu,Unidades de Frio Utah,hf,2,,
+CHLC,CHLCshf7,Horas Frio Base 7,hf,2,2012-04-02 00:00:00,
+CHLC,CHLCsgd10,Grados Dia Base 10,gd,2,2012-04-03 00:00:00,
+CHLC,CHLCBT,Batería,V,1.5,2012-04-03 16:45:00,

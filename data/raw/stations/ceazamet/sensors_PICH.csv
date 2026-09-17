@@ -1,0 +1,10 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:47:03
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:47:05, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+PICH,PICHVV,Velocidad de Viento,m/s,5,2020-08-12 02:30:00,
+PICH,PICHDV,Dirección de viento,°,5,2020-08-12 02:30:00,
+PICH,PICHRS,Radiación Solar,W/m²,2,2020-08-12 02:30:00,
+PICH,PICHPA,Presión Atmosférica,hPa,2,2020-08-12 02:30:00,
+PICH,PICHBT,Batería,V,1.5,2020-08-12 02:30:00,

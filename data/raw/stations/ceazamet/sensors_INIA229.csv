@@ -1,0 +1,15 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:43:53
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:43:55, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+INIA229,INIA40691,Temperatura del Aire,°C,2,2026-08-07 19:00:00,
+INIA229,INIA40694,Humedad Relativa,%,2,2026-08-07 19:00:00,
+INIA229,INIA40702,Velocidad de Viento,m/s,2,2026-08-07 19:00:00,
+INIA229,INIA40704,Dirección de viento,°,2,2026-08-07 19:00:00,
+INIA229,INIA40697,Radiación Solar,W/m²,2,2026-08-07 19:00:00,
+INIA229,INIA40701,Precipitación,mm,1.5,2026-08-07 19:00:00,
+INIA229,INIA229set0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+INIA229,INIA229shf7,Horas Frio Base 7,hf,2,2026-08-03 00:00:00,
+INIA229,INIA229sgd10,Grados Dia Base 10,gd,2,2026-08-03 00:00:00,
+INIA229,INIA229sufu,Unidades de Frio Utah,hf,2,2026-08-05 17:00:00,

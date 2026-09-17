@@ -1,0 +1,10 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:43:50
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:43:52, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+CRN,CRNSAL,Salinidad del agua,psu,-1,2016-10-27 03:20:00,
+CRN,CRNCND,Conductividad,uS/cm,-1,2016-10-27 03:20:00,
+CRN,CRNTAG,Temperatura del Agua,°C,-1,2016-10-27 03:20:00,
+CRN,CRNAPZ,Profundidad de Agua en Pozo,m,0,2016-10-27 03:20:00,
+CRN,CRNTDS,Total de Solidos Disueltos,mg/l,0,2016-10-27 03:20:00,

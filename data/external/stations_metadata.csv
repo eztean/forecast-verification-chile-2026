@@ -1,0 +1,40 @@
+city,role,station_id,station_name,network,lat,lon,elev_m,cell_elev_m,dist_km,delta_elev_m,notes,sensor_id,unit,n_days,n_usable
+la_serena,primary,LSC,La Serena [CEAZA],CEAZA-Met,-29.915015,-71.242214,90,29.0,1.3,61.0,,LSCPP,mm,27,24
+la_serena,neighbour,CGR,La Serena [Cerro Grande],CEAZA-Met,-29.938475,-71.223505,513,29.0,4.5,484.0,elevation gap +484 m vs the model cell,CGRPP,mm,27,27
+la_serena,neighbour,5,La Serena [El Romeral],CEAZA-Met,-29.754064,-71.257442,162,29.0,16.8,133.0,loose match: 17 km from the city,25,mm,27,27
+la_serena,neighbour,4,Coquimbo [El Panul],CEAZA-Met,-29.998736,-71.39852,122,29.0,17.8,93.0,loose match: 18 km from the city,15,mm,27,27
+la_serena,neighbour,9,Gabriela Mistral,CEAZA-Met,-29.97852,-71.080386,198,29.0,18.2,169.0,loose match: 18 km from the city,65,mm,27,27
+la_serena,neighbour,3,Pan de Azúcar,CEAZA-Met,-30.074646,-71.238945,135,29.0,18.9,106.0,loose match: 19 km from the city,5,mm,27,25
+coquimbo,neighbour,4,Coquimbo [El Panul],CEAZA-Met,-29.998736,-71.39852,122,25.0,7.7,97.0,,15,mm,27,27
+coquimbo,neighbour,LSC,La Serena [CEAZA],CEAZA-Met,-29.915015,-71.242214,90,25.0,10.2,65.0,,LSCPP,mm,27,24
+coquimbo,neighbour,CGR,La Serena [Cerro Grande],CEAZA-Met,-29.938475,-71.223505,513,25.0,11.2,488.0,elevation gap +488 m vs the model cell,CGRPP,mm,27,27
+coquimbo,neighbour,3,Pan de Azúcar,CEAZA-Met,-30.074646,-71.238945,135,25.0,16.6,110.0,loose match: 17 km from the city,5,mm,27,25
+coquimbo,neighbour,5,La Serena [El Romeral],CEAZA-Met,-29.754064,-71.257442,162,25.0,23.5,137.0,loose match: 23 km from the city,25,mm,27,27
+coquimbo,neighbour,9,Gabriela Mistral,CEAZA-Met,-29.97852,-71.080386,198,25.0,25.1,173.0,loose match: 25 km from the city,65,mm,27,27
+vicuna,primary,6,Vicuña,CEAZA-Met,-30.038318,-70.696553,634,620.0,1.3,14.0,,35,mm,27,27
+vicuna,neighbour,ALG,Algarrobal,CEAZA-Met,-29.9988307,-70.587333,800,620.0,12.2,180.0,,ALGPP,mm,27,27
+vicuna,neighbour,PYRV,Rivadavia,CEAZA-Met,-29.96173,-70.539081,900,620.0,18.0,280.0,loose match: 18 km from the city,PYRVPP,mm,27,0
+vicuna,neighbour,8,Pisco Elqui,CEAZA-Met,-30.129028,-70.494712,1240,620.0,23.2,620.0,loose match: 23 km from the city; elevation gap +620 m vs the model cell,55,mm,27,27
+andacollo,primary,ANDA,Andacollo [Collowara],CEAZA-Met,-30.248749,-71.065259,1281,1011.0,2.8,270.0,,ANDAPP,mm,27,27
+andacollo,neighbour,LCAR,Las Cardas,CEAZA-Met,-30.251452,-71.256903,282,1011.0,16.7,-729.0,loose match: 17 km from the city; elevation gap -729 m vs the model cell,LCARPP,mm,27,27
+andacollo,neighbour,3,Pan de Azúcar,CEAZA-Met,-30.074646,-71.238945,135,1011.0,22.7,-876.0,loose match: 23 km from the city; elevation gap -876 m vs the model cell,5,mm,27,25
+andacollo,neighbour,PICHA,Pichasca,CEAZA-Met,-30.41323,-70.90277,670,1011.0,26.9,-341.0,loose match: 27 km from the city; elevation gap -341 m vs the model cell,PICHAPP,mm,27,27
+andacollo,neighbour,9,Gabriela Mistral,CEAZA-Met,-29.97852,-71.080386,198,1011.0,28.0,-813.0,loose match: 28 km from the city; elevation gap -813 m vs the model cell,65,mm,27,27
+ovalle,primary,TLH,Ovalle [Talhuén],CEAZA-Met,-30.592033,-71.247966,292,254.0,4.6,38.0,,TLHPP,mm,27,27
+ovalle,neighbour,INIA319,Los Acacios [INIA],CEAZA-Met,-30.700483,-71.286422,254,254.0,14.1,0.0,,INIA319PP,mm,27,27
+ovalle,neighbour,INIA64,Algarrobo Bajo [INIA],CEAZA-Met,-30.631261,-71.452949,80,254.0,24.5,-174.0,loose match: 24 km from the city,INIA1557,mm,27,25
+monte_patria,primary,INIA66,El Palqui [INIA],CEAZA-Met,-30.774544,-70.926831,504,428.0,9.3,76.0,,INIA1533,mm,27,27
+monte_patria,neighbour,RPL,Rapel,CEAZA-Met,-30.722798,-70.772488,862,428.0,18.0,434.0,loose match: 18 km from the city; elevation gap +434 m vs the model cell,RPLPP,mm,27,27
+monte_patria,neighbour,INIA229,Chaguaral [INIA],CEAZA-Met,-30.857084,-70.730689,833,428.0,28.2,405.0,loose match: 28 km from the city; elevation gap +405 m vs the model cell,INIA40701,mm,27,26
+combarbala,primary,COMB,Combarbalá [C.del Sur],CEAZA-Met,-31.200223,-71.000149,1136,879.0,2.5,257.0,,COMBPP,mm,27,27
+illapel,primary,INILLA,Illapel,CEAZA-Met,-31.64814,-71.196947,275,312.0,3.4,-37.0,,INILLAPP,mm,27,27
+illapel,neighbour,CHLC,Las Cañas 2,CEAZA-Met,-31.735799980164,-71.219350004196,586,312.0,12.5,274.0,,CHLCPP,mm,27,0
+illapel,neighbour,CHHT,Huintil,CEAZA-Met,-31.573305,-70.998152,590,312.0,17.2,278.0,loose match: 17 km from the city,CHHTPP,mm,27,27
+illapel,neighbour,MIN,Mincha Sur,CEAZA-Met,-31.594247,-71.42159,50,312.0,24.6,-262.0,loose match: 25 km from the city,MINPP,mm,27,27
+salamanca,primary,CHHT,Huintil,CEAZA-Met,-31.573305,-70.998152,590,507.0,23.1,83.0,loose match: 23 km from the city,CHHTPP,mm,27,27
+salamanca,neighbour,CHLC,Las Cañas 2,CEAZA-Met,-31.735799980164,-71.219350004196,586,507.0,24.5,79.0,loose match: 25 km from the city,CHLCPP,mm,27,0
+salamanca,neighbour,INILLA,Illapel,CEAZA-Met,-31.64814,-71.196947,275,507.0,26.3,-232.0,loose match: 26 km from the city,INILLAPP,mm,27,27
+salamanca,neighbour,CHILL,Salamanca [Chillepín],CEAZA-Met,-31.88563,-70.71395,887,507.0,26.5,380.0,loose match: 27 km from the city; elevation gap +380 m vs the model cell,CHILLPP,mm,27,27
+los_vilos,primary,LVIL,Los Vilos,CEAZA-Met,-31.9090853,-71.5139144,10,12.0,0.7,-2.0,,LVILPP,mm,27,27
+los_vilos,neighbour,INIA221,Quilimari [INIA],CEAZA-Met,-32.119098,-71.460005,27,12.0,23.2,15.0,loose match: 23 km from the city,INIA40494,mm,27,27
+puerto_montt,primary,RLCV,Seno Reloncaví [Imar],CEAZA-Met,-41.63638333,-72.8344833,0,10.0,20.7,-10.0,loose match: 21 km from the city,RLCVMETPP,mm,27,0

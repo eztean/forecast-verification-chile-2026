@@ -1,0 +1,2 @@
+n_gauges_total,n_gauges_passing_qc,gauge_min_mm,gauge_max_mm,gauge_mean_mm,gauge_spread_factor,grid_total_mm,model_intercity_difference_mm,gfs_seamless_lead1_mm,ecmwf_ifs025_lead1_mm,icon_seamless_lead1_mm
+7,7,128.4,214.4,179.46714285714287,1.6697819314641744,310.2,0.0,131.5,322.5,216.8

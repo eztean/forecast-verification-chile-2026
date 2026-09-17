@@ -1,0 +1,16 @@
+{
+  "network": "dmc",
+  "service": "https://climatologia.meteochile.gob.cl/application",
+  "fetched_utc": "2026-08-08T05:35:45.980311+00:00",
+  "window": {
+    "year": 2026,
+    "month": 7
+  },
+  "timezone": "payload is UTC; shifted -4 h to America/Santiago (no DST April-September)",
+  "daily_convention": "sum of 15-min increments differenced from aguaCaida6Horas, over the local calendar day",
+  "unused_fields": {
+    "aguaCaidaDelMinuto": "1 minute sampled every 15; not an accumulation",
+    "aguaCaida24Horas": "accumulates 12:01-12:00 UTC, not a local day"
+  },
+  "calls": []
+}

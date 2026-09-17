@@ -1,0 +1,26 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:39:45
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:39:47, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+6,39,Temperatura del Aire,°C,2,2026-08-08 01:00:00,
+6,40,Humedad Relativa,%,2,2026-08-08 01:00:00,
+6,36,Velocidad de Viento,m/s,2,2026-08-08 01:00:00,
+6,VCNVV5,Velocidad de Viento,m/s,5,2026-08-08 01:00:00,
+6,37,Dirección de viento,°,2,2026-08-08 01:00:00,
+6,VCNDV5,Dirección de viento,°,5,2026-08-08 01:00:00,
+6,110,Radiación PAR,umol/m²*s,2,2026-08-08 01:00:00,
+6,VCNRS2,Radiación Solar,W/m²,4,2026-08-08 01:00:00,
+6,VCNRSDIF,Radiacion Solar Difusa,W/m²,2,2026-08-08 01:00:00,
+6,VCNPA,Presión Atmosférica,hPa,2,2026-08-08 01:00:00,
+6,35,Precipitación,mm,1.5,2026-08-08 01:00:00,
+6,VCNRSDIR,Radiacion Solar Directa,W/m²,2,2026-08-08 01:00:00,
+6,42,Temperatura de Suelo,°C,-0.2,2026-08-08 01:00:00,
+6,41,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+6,6set0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+6,VCNTPR,Punto de Rocío,°C,0,2026-08-08 01:00:00,
+6,6sgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+6,6sufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+6,6shf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+6,VCNROLI,Radiación Onda Larga Incidente,W/m²,4,2026-08-08 01:00:00,
+6,VCNBT,Batería,V,1.5,2026-08-08 01:00:00,

@@ -1,0 +1,8 @@
+station_id,network,total_mm,n_days,station_name,dist_km,elev_m,passes_qc
+9,ceazamet,214.4,6,Gabriela Mistral,18.2,198.0,True
+5,ceazamet,212.8,6,La Serena [El Romeral],16.8,162.0,True
+3,ceazamet,201.1,6,Pan de Azúcar,18.9,135.0,True
+4,ceazamet,182.6,6,Coquimbo [El Panul],17.8,122.0,True
+290004,dmc,176.0,6,"La Florida, La Serena Ad.",4.2,146.0,True
+CGR,ceazamet,140.97,6,La Serena [Cerro Grande],4.5,513.0,True
+LSC,ceazamet,128.4,5,La Serena [CEAZA],1.3,90.0,True

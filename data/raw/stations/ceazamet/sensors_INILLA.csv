@@ -1,0 +1,22 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:44:35
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:44:37, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+INILLA,INILLATA,Temperatura del Aire,°C,1.5,2026-08-08 01:00:00,
+INILLA,INILLAHR,Humedad Relativa,%,1.5,2026-08-08 01:00:00,
+INILLA,INILLAVV,Velocidad de Viento,m/s,2,2026-08-08 01:00:00,
+INILLA,INILLADV,Dirección de viento,°,2,2026-08-08 01:00:00,
+INILLA,INILLARSP,Radiación PAR,umol/m²*s,0,2026-08-08 01:00:00,
+INILLA,INILLARS,Radiación Solar,W/m²,2,2026-08-08 01:00:00,
+INILLA,INILLARS2,Radiación Solar,W/m²,3,2026-08-08 01:00:00,
+INILLA,INILLAPP,Precipitación,mm,1.5,2026-08-08 01:00:00,
+INILLA,INILLATS2,Temperatura de Suelo,°C,-0.2,2026-08-08 01:00:00,
+INILLA,INILLATS1,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+INILLA,INILLAset0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+INILLA,INILLAsgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+INILLA,INILLAshf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+INILLA,INILLAsufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+INILLA,INILLAROLI,Radiación Onda Larga Incidente,W/m²,3,2026-08-08 01:00:00,
+INILLA,INILLAROLIT,Temperatura Sensor,°C,3,2026-08-08 01:00:00,
+INILLA,INILLABT,Batería,V,1.5,2026-08-08 01:00:00,

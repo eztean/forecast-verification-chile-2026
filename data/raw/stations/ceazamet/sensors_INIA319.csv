@@ -1,0 +1,18 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:42:34
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:42:36, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+INIA319,INIA319TA,Temperatura del Aire,°C,1.5,2026-08-08 00:45:00,
+INIA319,INIA319HR,Humedad Relativa,%,1.5,2026-08-08 00:45:00,
+INIA319,INIA319VV,Velocidad de Viento,m/s,2,2026-08-08 00:45:00,
+INIA319,INIA319DV,Dirección de viento,°,2,2026-08-08 00:45:00,
+INIA319,INIA319RS,Radiación Solar,W/m²,2,2026-08-08 00:45:00,
+INIA319,INIA319PA,Presión Atmosférica,hPa,2,2026-08-08 00:45:00,
+INIA319,INIA319PP,Precipitación,mm,1.5,2026-08-08 00:45:00,
+INIA319,INIA319TS,Temperatura de Suelo,°C,-0.1,2026-08-08 00:45:00,
+INIA319,INIA319TSU,Temperatura de Superficie de Suelo,°C,0,2026-08-08 00:45:00,
+INIA319,INIA319set0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+INIA319,INIA319sufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+INIA319,INIA319shf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+INIA319,INIA319sgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,

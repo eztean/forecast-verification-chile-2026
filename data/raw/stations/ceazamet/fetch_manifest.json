@@ -1,0 +1,2315 @@
+{
+  "network": "ceazamet",
+  "service": "http://www.ceazamet.cl/ws/pop_ws.php",
+  "fetched_utc": "2026-08-08T05:47:27.687949+00:00",
+  "window": {
+    "start": "2026-07-01",
+    "end": "2026-07-27"
+  },
+  "timezone": "GMT-4 (= America/Santiago in July, no DST)",
+  "daily_convention": "interv=dia, midnight-to-midnight local calendar day",
+  "calls": [
+    {
+      "label": "catalogue",
+      "fn": "GetListaEstaciones",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaEstaciones&user=eztean.morales%40gmail.com&p_cod=ceazamet&c0=e_cod&c1=e_nombre&c2=e_lat&c3=e_lon&c4=e_altitud",
+      "params": {
+        "fn": "GetListaEstaciones",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "c0": "e_cod",
+        "c1": "e_nombre",
+        "c2": "e_lat",
+        "c3": "e_lon",
+        "c4": "e_altitud"
+      },
+      "requested_utc": "2026-08-08T05:37:44.348662+00:00",
+      "attempts": 1,
+      "bytes": 6748
+    },
+    {
+      "label": "sensors/LSC",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=LSC",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "LSC"
+      },
+      "requested_utc": "2026-08-08T05:37:47.590470+00:00",
+      "attempts": 1,
+      "bytes": 1155
+    },
+    {
+      "label": "series/LSCPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LSCPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LSCPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:37:50.769023+00:00",
+      "attempts": 1,
+      "bytes": 1109
+    },
+    {
+      "label": "series/LSCPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LSCPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LSCPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:37:53.949962+00:00",
+      "attempts": 1,
+      "bytes": 594
+    },
+    {
+      "label": "sensors/CGR",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=CGR",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "CGR"
+      },
+      "requested_utc": "2026-08-08T05:37:57.144458+00:00",
+      "attempts": 1,
+      "bytes": 1198
+    },
+    {
+      "label": "series/CGRPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CGRPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CGRPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:00.320831+00:00",
+      "attempts": 1,
+      "bytes": 1163
+    },
+    {
+      "label": "series/CGRPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CGRPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CGRPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:03.513986+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/CGRPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CGRPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CGRPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:11.869200+00:00",
+      "attempts": 1,
+      "bytes": 509
+    },
+    {
+      "label": "series/CGRPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CGRPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CGRPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:15.049436+00:00",
+      "attempts": 1,
+      "bytes": 458
+    },
+    {
+      "label": "sensors/UCNG",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=UCNG",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "UCNG"
+      },
+      "requested_utc": "2026-08-08T05:38:18.252997+00:00",
+      "attempts": 1,
+      "bytes": 828
+    },
+    {
+      "label": "sensors/5",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=5",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "5"
+      },
+      "requested_utc": "2026-08-08T05:38:21.430453+00:00",
+      "attempts": 1,
+      "bytes": 1589
+    },
+    {
+      "label": "series/25/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=25&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "25",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:24.597191+00:00",
+      "attempts": 1,
+      "bytes": 1049
+    },
+    {
+      "label": "series/25/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=25&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "25",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:27.812974+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/25/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=25&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "25",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:36.155983+00:00",
+      "attempts": 1,
+      "bytes": 488
+    },
+    {
+      "label": "series/25/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=25&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "25",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:39.330015+00:00",
+      "attempts": 1,
+      "bytes": 452
+    },
+    {
+      "label": "sensors/4",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=4",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "4"
+      },
+      "requested_utc": "2026-08-08T05:38:42.512345+00:00",
+      "attempts": 1,
+      "bytes": 1261
+    },
+    {
+      "label": "series/15/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=15&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "15",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:45.677389+00:00",
+      "attempts": 1,
+      "bytes": 1067
+    },
+    {
+      "label": "series/15/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=15&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "15",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:48.854902+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/15/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=15&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "15",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:38:57.205649+00:00",
+      "attempts": 1,
+      "bytes": 488
+    },
+    {
+      "label": "series/15/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=15&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "15",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:00.378770+00:00",
+      "attempts": 1,
+      "bytes": 446
+    },
+    {
+      "label": "sensors/9",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=9",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "9"
+      },
+      "requested_utc": "2026-08-08T05:39:03.582421+00:00",
+      "attempts": 1,
+      "bytes": 1256
+    },
+    {
+      "label": "series/65/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=65&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "65",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:06.756129+00:00",
+      "attempts": 1,
+      "bytes": 1052
+    },
+    {
+      "label": "series/65/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=65&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "65",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:09.950876+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/65/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=65&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "65",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:18.300317+00:00",
+      "attempts": 1,
+      "bytes": 488
+    },
+    {
+      "label": "series/65/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=65&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "65",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:21.473003+00:00",
+      "attempts": 1,
+      "bytes": 446
+    },
+    {
+      "label": "sensors/3",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=3",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "3"
+      },
+      "requested_utc": "2026-08-08T05:39:24.651377+00:00",
+      "attempts": 1,
+      "bytes": 1341
+    },
+    {
+      "label": "series/5/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=5&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "5",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:27.819925+00:00",
+      "attempts": 1,
+      "bytes": 1034
+    },
+    {
+      "label": "series/5/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=5&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "5",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:31.019264+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/5/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=5&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "5",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:39.377571+00:00",
+      "attempts": 1,
+      "bytes": 483
+    },
+    {
+      "label": "series/5/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=5&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "5",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:42.544395+00:00",
+      "attempts": 1,
+      "bytes": 442
+    },
+    {
+      "label": "sensors/6",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=6",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "6"
+      },
+      "requested_utc": "2026-08-08T05:39:45.733068+00:00",
+      "attempts": 1,
+      "bytes": 1500
+    },
+    {
+      "label": "series/35/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=35&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "35",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:48.905618+00:00",
+      "attempts": 1,
+      "bytes": 1058
+    },
+    {
+      "label": "series/35/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=35&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "35",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:39:52.093234+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/35/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=35&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "35",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:00.466078+00:00",
+      "attempts": 1,
+      "bytes": 494
+    },
+    {
+      "label": "series/35/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=35&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "35",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:03.681628+00:00",
+      "attempts": 1,
+      "bytes": 446
+    },
+    {
+      "label": "sensors/ALG",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=ALG",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "ALG"
+      },
+      "requested_utc": "2026-08-08T05:40:06.880785+00:00",
+      "attempts": 1,
+      "bytes": 984
+    },
+    {
+      "label": "series/ALGPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ALGPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ALGPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:10.055734+00:00",
+      "attempts": 1,
+      "bytes": 1112
+    },
+    {
+      "label": "series/ALGPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ALGPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ALGPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:13.233848+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/ALGPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ALGPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ALGPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:21.588087+00:00",
+      "attempts": 1,
+      "bytes": 509
+    },
+    {
+      "label": "series/ALGPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ALGPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ALGPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:24.772979+00:00",
+      "attempts": 1,
+      "bytes": 458
+    },
+    {
+      "label": "sensors/PYRV",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=PYRV",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "PYRV"
+      },
+      "requested_utc": "2026-08-08T05:40:27.964661+00:00",
+      "attempts": 1,
+      "bytes": 1183
+    },
+    {
+      "label": "series/PYRVPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PYRVPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PYRVPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:31.133853+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/PYRVPP/2026-07-01_2026-07-10",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PYRVPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-10&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PYRVPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-10",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:39.475513+00:00",
+      "attempts": 1,
+      "bytes": 671
+    },
+    {
+      "label": "series/PYRVPP/2026-07-11_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PYRVPP&fecha_inicio=2026-07-11&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PYRVPP",
+        "fecha_inicio": "2026-07-11",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:42.645338+00:00",
+      "attempts": 1,
+      "bytes": 671
+    },
+    {
+      "label": "series/PYRVPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PYRVPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PYRVPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:45.818468+00:00",
+      "attempts": 1,
+      "bytes": 575
+    },
+    {
+      "label": "sensors/8",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=8",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "8"
+      },
+      "requested_utc": "2026-08-08T05:40:49.011269+00:00",
+      "attempts": 1,
+      "bytes": 1301
+    },
+    {
+      "label": "series/55/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=55&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "55",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:52.182974+00:00",
+      "attempts": 1,
+      "bytes": 1040
+    },
+    {
+      "label": "series/55/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=55&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "55",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:40:55.372694+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/55/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=55&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "55",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:03.726983+00:00",
+      "attempts": 1,
+      "bytes": 494
+    },
+    {
+      "label": "series/55/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=55&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "55",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:06.897374+00:00",
+      "attempts": 1,
+      "bytes": 446
+    },
+    {
+      "label": "sensors/ANDA",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=ANDA",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "ANDA"
+      },
+      "requested_utc": "2026-08-08T05:41:10.084083+00:00",
+      "attempts": 1,
+      "bytes": 1422
+    },
+    {
+      "label": "series/ANDAPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ANDAPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ANDAPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:13.259433+00:00",
+      "attempts": 1,
+      "bytes": 1139
+    },
+    {
+      "label": "series/ANDAPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ANDAPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ANDAPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:16.462204+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/ANDAPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ANDAPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ANDAPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:24.806217+00:00",
+      "attempts": 1,
+      "bytes": 511
+    },
+    {
+      "label": "series/ANDAPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=ANDAPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "ANDAPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:27.976706+00:00",
+      "attempts": 1,
+      "bytes": 462
+    },
+    {
+      "label": "sensors/LCAR",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=LCAR",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "LCAR"
+      },
+      "requested_utc": "2026-08-08T05:41:31.169344+00:00",
+      "attempts": 1,
+      "bytes": 1416
+    },
+    {
+      "label": "series/LCARPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LCARPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LCARPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:34.341809+00:00",
+      "attempts": 1,
+      "bytes": 1145
+    },
+    {
+      "label": "series/LCARPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LCARPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LCARPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:37.523054+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/LCARPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LCARPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LCARPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:45.872120+00:00",
+      "attempts": 1,
+      "bytes": 514
+    },
+    {
+      "label": "series/LCARPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LCARPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LCARPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:49.052245+00:00",
+      "attempts": 1,
+      "bytes": 462
+    },
+    {
+      "label": "sensors/PICHA",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=PICHA",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "PICHA"
+      },
+      "requested_utc": "2026-08-08T05:41:52.231702+00:00",
+      "attempts": 1,
+      "bytes": 1323
+    },
+    {
+      "label": "series/PICHAPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PICHAPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PICHAPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:55.408279+00:00",
+      "attempts": 1,
+      "bytes": 1157
+    },
+    {
+      "label": "series/PICHAPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PICHAPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PICHAPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:41:58.602806+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/PICHAPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PICHAPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PICHAPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:06.967747+00:00",
+      "attempts": 1,
+      "bytes": 519
+    },
+    {
+      "label": "series/PICHAPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=PICHAPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "PICHAPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:10.138853+00:00",
+      "attempts": 1,
+      "bytes": 466
+    },
+    {
+      "label": "sensors/TLH",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=TLH",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "TLH"
+      },
+      "requested_utc": "2026-08-08T05:42:13.334401+00:00",
+      "attempts": 1,
+      "bytes": 1240
+    },
+    {
+      "label": "series/TLHPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=TLHPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "TLHPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:16.504376+00:00",
+      "attempts": 1,
+      "bytes": 1127
+    },
+    {
+      "label": "series/TLHPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=TLHPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "TLHPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:19.685149+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/TLHPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=TLHPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "TLHPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:28.030268+00:00",
+      "attempts": 1,
+      "bytes": 509
+    },
+    {
+      "label": "series/TLHPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=TLHPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "TLHPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:31.204269+00:00",
+      "attempts": 1,
+      "bytes": 458
+    },
+    {
+      "label": "sensors/INIA319",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=INIA319",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "INIA319"
+      },
+      "requested_utc": "2026-08-08T05:42:34.379529+00:00",
+      "attempts": 1,
+      "bytes": 1224
+    },
+    {
+      "label": "series/INIA319PP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA319PP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA319PP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:37.550794+00:00",
+      "attempts": 1,
+      "bytes": 1205
+    },
+    {
+      "label": "series/INIA319PP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA319PP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA319PP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:40.740799+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/INIA319PP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA319PP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA319PP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:49.105700+00:00",
+      "attempts": 1,
+      "bytes": 529
+    },
+    {
+      "label": "series/INIA319PP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA319PP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA319PP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:42:52.272196+00:00",
+      "attempts": 1,
+      "bytes": 474
+    },
+    {
+      "label": "sensors/INIA74",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=INIA74",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "INIA74"
+      },
+      "requested_utc": "2026-08-08T05:42:55.460725+00:00",
+      "attempts": 1,
+      "bytes": 1047
+    },
+    {
+      "label": "sensors/INIA64",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=INIA64",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "INIA64"
+      },
+      "requested_utc": "2026-08-08T05:42:58.633259+00:00",
+      "attempts": 1,
+      "bytes": 1042
+    },
+    {
+      "label": "series/INIA1557/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA1557&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA1557",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:01.820690+00:00",
+      "attempts": 1,
+      "bytes": 1160
+    },
+    {
+      "label": "series/INIA1557/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA1557&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA1557",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:05.011675+00:00",
+      "attempts": 1,
+      "bytes": 647
+    },
+    {
+      "label": "sensors/INIA66",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=INIA66",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "INIA66"
+      },
+      "requested_utc": "2026-08-08T05:43:08.210322+00:00",
+      "attempts": 1,
+      "bytes": 1042
+    },
+    {
+      "label": "series/INIA1533/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA1533&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA1533",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:11.383666+00:00",
+      "attempts": 1,
+      "bytes": 1178
+    },
+    {
+      "label": "series/INIA1533/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA1533&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA1533",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:14.565775+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/INIA1533/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA1533&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA1533",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:22.903817+00:00",
+      "attempts": 1,
+      "bytes": 524
+    },
+    {
+      "label": "series/INIA1533/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA1533&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA1533",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:26.085091+00:00",
+      "attempts": 1,
+      "bytes": 470
+    },
+    {
+      "label": "sensors/RPL",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=RPL",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "RPL"
+      },
+      "requested_utc": "2026-08-08T05:43:29.261259+00:00",
+      "attempts": 1,
+      "bytes": 1084
+    },
+    {
+      "label": "series/RPLPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RPLPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RPLPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:32.440777+00:00",
+      "attempts": 1,
+      "bytes": 1142
+    },
+    {
+      "label": "series/RPLPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RPLPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RPLPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:35.633979+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/RPLPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RPLPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RPLPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:43.989921+00:00",
+      "attempts": 1,
+      "bytes": 521
+    },
+    {
+      "label": "series/RPLPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RPLPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RPLPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:47.163021+00:00",
+      "attempts": 1,
+      "bytes": 458
+    },
+    {
+      "label": "sensors/CRN",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=CRN",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "CRN"
+      },
+      "requested_utc": "2026-08-08T05:43:50.349110+00:00",
+      "attempts": 1,
+      "bytes": 669
+    },
+    {
+      "label": "sensors/INIA229",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=INIA229",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "INIA229"
+      },
+      "requested_utc": "2026-08-08T05:43:53.545456+00:00",
+      "attempts": 1,
+      "bytes": 1007
+    },
+    {
+      "label": "series/INIA40701/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40701&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40701",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:56.736007+00:00",
+      "attempts": 1,
+      "bytes": 1201
+    },
+    {
+      "label": "series/INIA40701/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40701&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40701",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:43:59.928046+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/INIA40701/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40701&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40701",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:08.303651+00:00",
+      "attempts": 1,
+      "bytes": 528
+    },
+    {
+      "label": "series/INIA40701/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40701&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40701",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:11.495248+00:00",
+      "attempts": 1,
+      "bytes": 474
+    },
+    {
+      "label": "sensors/COMB",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=COMB",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "COMB"
+      },
+      "requested_utc": "2026-08-08T05:44:14.687222+00:00",
+      "attempts": 1,
+      "bytes": 1501
+    },
+    {
+      "label": "series/COMBPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=COMBPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "COMBPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:17.869813+00:00",
+      "attempts": 1,
+      "bytes": 1139
+    },
+    {
+      "label": "series/COMBPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=COMBPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "COMBPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:21.070041+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/COMBPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=COMBPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "COMBPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:29.429511+00:00",
+      "attempts": 1,
+      "bytes": 514
+    },
+    {
+      "label": "series/COMBPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=COMBPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "COMBPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:32.618317+00:00",
+      "attempts": 1,
+      "bytes": 468
+    },
+    {
+      "label": "sensors/INILLA",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=INILLA",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "INILLA"
+      },
+      "requested_utc": "2026-08-08T05:44:35.803571+00:00",
+      "attempts": 1,
+      "bytes": 1442
+    },
+    {
+      "label": "series/INILLAPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INILLAPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INILLAPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:38.978076+00:00",
+      "attempts": 1,
+      "bytes": 1178
+    },
+    {
+      "label": "series/INILLAPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INILLAPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INILLAPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:42.168141+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/INILLAPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INILLAPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INILLAPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:50.523445+00:00",
+      "attempts": 1,
+      "bytes": 524
+    },
+    {
+      "label": "series/INILLAPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INILLAPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INILLAPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:44:53.693851+00:00",
+      "attempts": 1,
+      "bytes": 476
+    },
+    {
+      "label": "sensors/CHLC",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=CHLC",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "CHLC"
+      },
+      "requested_utc": "2026-08-08T05:44:56.876990+00:00",
+      "attempts": 1,
+      "bytes": 1220
+    },
+    {
+      "label": "series/CHLCPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHLCPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHLCPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:00.050448+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/CHLCPP/2026-07-01_2026-07-10",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHLCPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-10&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHLCPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-10",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:08.442021+00:00",
+      "attempts": 1,
+      "bytes": 671
+    },
+    {
+      "label": "series/CHLCPP/2026-07-11_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHLCPP&fecha_inicio=2026-07-11&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHLCPP",
+        "fecha_inicio": "2026-07-11",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:11.620788+00:00",
+      "attempts": 1,
+      "bytes": 671
+    },
+    {
+      "label": "series/CHLCPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHLCPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHLCPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:14.812813+00:00",
+      "attempts": 1,
+      "bytes": 575
+    },
+    {
+      "label": "sensors/CHHT",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=CHHT",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "CHHT"
+      },
+      "requested_utc": "2026-08-08T05:45:18.005051+00:00",
+      "attempts": 1,
+      "bytes": 1237
+    },
+    {
+      "label": "series/CHHTPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHHTPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHHTPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:21.215053+00:00",
+      "attempts": 1,
+      "bytes": 1139
+    },
+    {
+      "label": "series/CHHTPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHHTPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHHTPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:24.418304+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/CHHTPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHHTPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHHTPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:32.783695+00:00",
+      "attempts": 1,
+      "bytes": 514
+    },
+    {
+      "label": "series/CHHTPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHHTPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHHTPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:35.959302+00:00",
+      "attempts": 1,
+      "bytes": 468
+    },
+    {
+      "label": "sensors/MIN",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=MIN",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "MIN"
+      },
+      "requested_utc": "2026-08-08T05:45:39.151937+00:00",
+      "attempts": 1,
+      "bytes": 1453
+    },
+    {
+      "label": "series/MINPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=MINPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "MINPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:42.320295+00:00",
+      "attempts": 1,
+      "bytes": 1121
+    },
+    {
+      "label": "series/MINPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=MINPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "MINPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:45.496696+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/MINPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=MINPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "MINPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:53.836468+00:00",
+      "attempts": 1,
+      "bytes": 503
+    },
+    {
+      "label": "series/MINPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=MINPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "MINPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:45:57.008040+00:00",
+      "attempts": 1,
+      "bytes": 458
+    },
+    {
+      "label": "sensors/CHILL",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=CHILL",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "CHILL"
+      },
+      "requested_utc": "2026-08-08T05:46:00.192996+00:00",
+      "attempts": 1,
+      "bytes": 1320
+    },
+    {
+      "label": "series/CHILLPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHILLPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHILLPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:03.364411+00:00",
+      "attempts": 1,
+      "bytes": 1154
+    },
+    {
+      "label": "series/CHILLPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHILLPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHILLPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:06.565013+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/CHILLPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHILLPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHILLPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:14.909744+00:00",
+      "attempts": 1,
+      "bytes": 519
+    },
+    {
+      "label": "series/CHILLPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=CHILLPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "CHILLPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:18.086220+00:00",
+      "attempts": 1,
+      "bytes": 472
+    },
+    {
+      "label": "sensors/LVIL",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=LVIL",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "LVIL"
+      },
+      "requested_utc": "2026-08-08T05:46:21.279073+00:00",
+      "attempts": 1,
+      "bytes": 809
+    },
+    {
+      "label": "series/LVILPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LVILPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LVILPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:24.449251+00:00",
+      "attempts": 1,
+      "bytes": 1139
+    },
+    {
+      "label": "series/LVILPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LVILPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LVILPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:27.632345+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/LVILPP/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LVILPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LVILPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:35.984144+00:00",
+      "attempts": 1,
+      "bytes": 505
+    },
+    {
+      "label": "series/LVILPP/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=LVILPP&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "LVILPP",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:39.157689+00:00",
+      "attempts": 1,
+      "bytes": 468
+    },
+    {
+      "label": "sensors/INIA221",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=INIA221",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "INIA221"
+      },
+      "requested_utc": "2026-08-08T05:46:42.338245+00:00",
+      "attempts": 1,
+      "bytes": 1213
+    },
+    {
+      "label": "series/INIA40494/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40494&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40494",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:45.502184+00:00",
+      "attempts": 1,
+      "bytes": 1211
+    },
+    {
+      "label": "series/INIA40494/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40494&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40494",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:48.682093+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/INIA40494/2026-07-21_2026-07-24",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40494&fecha_inicio=2026-07-21&fecha_fin=2026-07-24&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40494",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-24",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:46:57.029228+00:00",
+      "attempts": 1,
+      "bytes": 523
+    },
+    {
+      "label": "series/INIA40494/2026-07-25_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=INIA40494&fecha_inicio=2026-07-25&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "INIA40494",
+        "fecha_inicio": "2026-07-25",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:47:00.207916+00:00",
+      "attempts": 1,
+      "bytes": 480
+    },
+    {
+      "label": "sensors/PICH",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=PICH",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "PICH"
+      },
+      "requested_utc": "2026-08-08T05:47:03.395946+00:00",
+      "attempts": 1,
+      "bytes": 645
+    },
+    {
+      "label": "sensors/RLCV",
+      "fn": "GetListaSensores",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetListaSensores&user=eztean.morales%40gmail.com&p_cod=ceazamet&e_cod=RLCV",
+      "params": {
+        "fn": "GetListaSensores",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "e_cod": "RLCV"
+      },
+      "requested_utc": "2026-08-08T05:47:06.600184+00:00",
+      "attempts": 1,
+      "bytes": 9500
+    },
+    {
+      "label": "series/RLCVMETPP/2026-07-01_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RLCVMETPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RLCVMETPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:47:09.774366+00:00",
+      "attempts": 2,
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "label": "series/RLCVMETPP/2026-07-01_2026-07-10",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RLCVMETPP&fecha_inicio=2026-07-01&fecha_fin=2026-07-10&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RLCVMETPP",
+        "fecha_inicio": "2026-07-01",
+        "fecha_fin": "2026-07-10",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:47:18.155689+00:00",
+      "attempts": 1,
+      "bytes": 704
+    },
+    {
+      "label": "series/RLCVMETPP/2026-07-11_2026-07-20",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RLCVMETPP&fecha_inicio=2026-07-11&fecha_fin=2026-07-20&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RLCVMETPP",
+        "fecha_inicio": "2026-07-11",
+        "fecha_fin": "2026-07-20",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:47:21.330994+00:00",
+      "attempts": 1,
+      "bytes": 704
+    },
+    {
+      "label": "series/RLCVMETPP/2026-07-21_2026-07-27",
+      "fn": "GetSerieSensor",
+      "url": "http://www.ceazamet.cl/ws/pop_ws.php?fn=GetSerieSensor&user=eztean.morales%40gmail.com&p_cod=ceazamet&s_cod=RLCVMETPP&fecha_inicio=2026-07-21&fecha_fin=2026-07-27&interv=dia",
+      "params": {
+        "fn": "GetSerieSensor",
+        "user": "eztean.morales@gmail.com",
+        "p_cod": "ceazamet",
+        "s_cod": "RLCVMETPP",
+        "fecha_inicio": "2026-07-21",
+        "fecha_fin": "2026-07-27",
+        "interv": "dia"
+      },
+      "requested_utc": "2026-08-08T05:47:24.508486+00:00",
+      "attempts": 1,
+      "bytes": 599
+    }
+  ]
+}

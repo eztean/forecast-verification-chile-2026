@@ -1,0 +1,21 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:46:00
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:46:02, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+CHILL,CHILLTA,Temperatura del Aire,°C,2,2026-08-08 01:00:00,
+CHILL,CHILLHR,Humedad Relativa,%,2,2026-08-08 01:00:00,
+CHILL,CHILLVV,Velocidad de Viento,m/s,5,2026-08-08 01:00:00,
+CHILL,CHILLDV,Dirección de viento,°,5,2026-08-08 01:00:00,
+CHILL,CHILLRP,Radiación PAR,W/m²,0,2026-08-08 01:00:00,
+CHILL,CHILLRS,Radiación Solar,W/m²,2,2026-08-08 01:00:00,
+CHILL,CHILLPA,Presión Atmosférica,hPa,1.5,2026-08-08 01:00:00,
+CHILL,CHILLPP,Precipitación,mm,1,2026-08-08 01:00:00,
+CHILL,CHILLTS2,Temperatura de Suelo,°C,-0.5,2026-08-08 01:00:00,
+CHILL,CHILLTS1,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+CHILL,CHILLset0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+CHILL,CHILLPR,Punto de Rocío,°C,1.5,2026-08-08 01:00:00,
+CHILL,CHILLshf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+CHILL,CHILLsgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+CHILL,CHILLsufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+CHILL,CHILLBT,Batería,V,1.5,2026-08-08 01:00:00,

@@ -1,0 +1,13 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:46:21
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:46:23, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+LVIL,LVILTA,Temperatura del Aire,°C,2,2026-08-06 11:00:00,
+LVIL,LVILHR,Humedad Relativa,%,2,2026-08-06 11:00:00,
+LVIL,LVILVV,Velocidad de Viento,m/s,5,2026-08-06 11:00:00,
+LVIL,LVILDV,Dirección de viento,°,5,2026-08-06 11:00:00,
+LVIL,LVILPA,Presión Atmosférica,hPa,1.5,2026-08-06 11:00:00,
+LVIL,LVILPP,Precipitación,mm,2,2026-08-06 11:00:00,
+LVIL,LVILPR,Punto de Rocío,°C,2,2026-08-06 11:00:00,
+LVIL,LVILBT,Batería,V,1.5,2026-08-06 11:00:00,

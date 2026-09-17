@@ -1,0 +1,21 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:41:52
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:41:54, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+PICHA,PICHATA,Temperatura del Aire,°C,2,2026-08-08 01:00:00,
+PICHA,PICHAHR,Humedad Relativa,%,2,2026-08-08 01:00:00,
+PICHA,PICHAVV,Velocidad de Viento,m/s,5,2026-08-08 01:00:00,
+PICHA,PICHADV,Dirección de viento,°,5,2026-08-08 01:00:00,
+PICHA,PICHARS,Radiación Solar,W/m²,2,2026-08-08 01:00:00,
+PICHA,PICHARP,Radiación PAR,umol/m²*s,2,2026-08-08 01:00:00,
+PICHA,PICHAPA,Presión Atmosférica,hPa,1.5,2026-08-08 01:00:00,
+PICHA,PICHAPP,Precipitación,mm,1,2026-08-08 01:00:00,
+PICHA,PICHATS2,Temperatura de Suelo,°C,-0.5,2026-08-08 01:00:00,
+PICHA,PICHATS1,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+PICHA,PICHAset0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+PICHA,PICHAPR,Punto de Rocío,°C,2,2026-08-08 01:00:00,
+PICHA,PICHAshf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+PICHA,PICHAsufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+PICHA,PICHAsgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+PICHA,PICHABT,Batería,V,1.5,2026-08-08 01:00:00,

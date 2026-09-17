@@ -1,0 +1,12 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:43:05
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-07-21, end_date: 2026-07-27, sensor_code: INIA1557, gmt: gmt-4
+#s_cod,ultima_lectura,min,prom,max,data_pc
+INIA1557,2026-07-21 00:00:00,15.3,15.3,15.3,100
+INIA1557,2026-07-22 00:00:00,0.7,0.7,0.7,100
+INIA1557,2026-07-23 00:00:00,0.7,0.7,0.7,100
+INIA1557,2026-07-24 00:00:00,5.5,5.5,5.5,100
+INIA1557,2026-07-25 00:00:00,0,0,0,100
+INIA1557,2026-07-26 00:00:00,0,0,0,50
+INIA1557,2026-07-27 00:00:00,,,,0

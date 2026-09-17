@@ -1,0 +1,23 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:41:10
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:41:12, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+ANDA,ANDATA,Temperatura del Aire,°C,1.5,2026-08-08 01:00:00,
+ANDA,ANDAHR,Humedad Relativa,%,1.5,2026-08-08 01:00:00,
+ANDA,ANDAVV,Velocidad de Viento,m/s,5,2026-08-08 01:00:00,
+ANDA,ANDADV,Dirección de viento,°,5,2026-08-08 01:00:00,
+ANDA,ANDARP,Radiación PAR,W/m²,2,2026-08-01 04:50:00,
+ANDA,ANDACMP10,Radiación Solar,W/m²,2,2026-08-08 01:00:00,
+ANDA,ANDARS,Radiación Solar,W/m²,2,2026-08-01 01:20:00,
+ANDA,ANDAPA,Presión Atmosférica,hPa,2,2026-08-08 01:00:00,
+ANDA,ANDAPP,Precipitación,mm,1.5,2026-08-08 01:00:00,
+ANDA,ANDATS2,Temperatura de Suelo,°C,-0.5,2026-08-08 01:00:00,
+ANDA,ANDATS1,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+ANDA,ANDAset0,Evapotranspiración,mm,0.1,2026-08-01 00:00:00,
+ANDA,ANDAPR,Punto de Rocío,°C,2,2026-08-08 01:00:00,
+ANDA,ANDAsufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+ANDA,ANDAshf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+ANDA,ANDAsgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+ANDA,ANDACGR3,Radiación Onda Larga Incidente,W/m²,2,2026-08-08 01:00:00,
+ANDA,ANDABT,Batería,V,1.5,2026-08-08 01:00:00,

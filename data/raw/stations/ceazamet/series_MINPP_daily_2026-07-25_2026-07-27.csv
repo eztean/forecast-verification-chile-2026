@@ -1,0 +1,8 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:45:57
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-07-25, end_date: 2026-07-27, sensor_code: MINPP, gmt: gmt-4
+#s_cod,ultima_lectura,min,prom,max,data_pc
+MINPP,2026-07-25 00:00:00,0,0,0,100
+MINPP,2026-07-26 00:00:00,0,0,0,100
+MINPP,2026-07-27 00:00:00,0,0,0,100

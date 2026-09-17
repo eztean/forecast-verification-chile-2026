@@ -1,0 +1,24 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:39:24
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:39:26, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+3,9,Temperatura del Aire,°C,1.5,2026-08-08 01:00:00,
+3,10,Humedad Relativa,%,1.5,2026-08-08 01:00:00,
+3,6,Velocidad de Viento,m/s,2,2026-08-08 01:00:00,
+3,PAZVV5,Velocidad de Viento,m/s,5,2026-08-08 01:00:00,
+3,7,Dirección de viento,°,2,2026-08-08 01:00:00,
+3,PAZDV5,Dirección de viento,°,5,2026-08-08 01:00:00,
+3,107,Radiación PAR,umol/m²*s,2,2017-02-24 23:30:00,
+3,8,Radiación Solar,W/m²,2,2026-08-08 01:00:00,
+3,PAZPA,Presión Atmosférica,hPa,2,2026-08-08 01:00:00,
+3,5,Precipitación,mm,1.5,2026-08-08 01:00:00,
+3,12,Temperatura de Suelo,°C,-0.2,2026-08-08 01:00:00,
+3,11,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+3,3set0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+3,PAZTPR,Punto de Rocío,°C,2,2026-08-08 01:00:00,
+3,94,Humedad Hoja,%,0,2011-12-06 10:00:00,
+3,3shf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+3,3sufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+3,3sgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+3,13,Batería,V,1.5,2026-08-08 01:00:00,

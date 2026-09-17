@@ -1,0 +1,28 @@
+#Datos provistos por CEAZA a traves del sistema CEAZA-Met, generados el:2026-08-08 01:38:21
+#Para consultas, contactar con Cristian Orrego al mail cristian.orrego@ceaza.cl.
+#Revisar condiciones de uso en www.ceazamet.cl
+#Params , start_date: 2026-08-01 00:00:00, end_date: 2026-08-08 01:38:23, gmt: gmt-4
+#e_cod,s_cod,tf_nombre,um_notacion,s_altura,s_ultima_lectura,
+5,29,Temperatura del Aire,°C,2,2026-08-08 01:00:00,
+5,30,Humedad Relativa,%,2,2026-08-08 01:00:00,
+5,26,Velocidad de Viento,m/s,2,2026-08-08 01:00:00,
+5,RMRVV5,Velocidad de Viento,m/s,5,2026-08-08 01:00:00,
+5,27,Dirección de viento,°,2,2026-08-08 01:00:00,
+5,RMRDV5,Dirección de viento,°,5,2026-08-08 01:00:00,
+5,109,Radiación PAR,umol/m²*s,0,2026-08-07 06:10:00,
+5,RMRRS2,Radiación Solar,W/m²,3,2026-08-08 01:00:00,
+5,28,Radiación Solar,W/m²,4,2026-08-08 01:00:00,
+5,RMRPA,Presión Atmosférica,hPa,2,2026-08-08 01:00:00,
+5,25,Precipitación,mm,1.5,2026-08-08 01:00:00,
+5,32,Temperatura de Suelo,°C,-0.5,2026-08-08 01:00:00,
+5,31,Temperatura de Suelo,°C,-0.1,2026-08-08 01:00:00,
+5,5set0,Evapotranspiración,mm,0.1,2026-08-05 00:00:00,
+5,RMRTPR,Punto de Rocío,°C,2,2026-08-08 01:00:00,
+5,85,Humedad Hoja,%,1.5,2026-07-31 21:30:00,
+5,5sgd10,Grados Dia Base 10,gd,2,2026-08-05 00:00:00,
+5,5shf7,Horas Frio Base 7,hf,2,2026-08-05 00:00:00,
+5,5sufu,Unidades de Frio Utah,hf,2,2026-08-05 23:00:00,
+5,RMRROLI,Radiación Onda Larga Incidente,W/m²,3,2026-08-08 01:00:00,
+5,RMRROLN,Radiación Onda Larga Neta,W/m²,3,2026-08-08 01:00:00,
+5,RMRROLIT,Temperatura Sensor,°C,3,2026-08-08 01:00:00,
+5,RMRBT,Batería,V,1.5,2026-08-08 01:00:00,

@@ -1,0 +1,42 @@
+city,role,station_id,station_name,network,lat,lon,elev_m,cell_elev_m,dist_km,delta_elev_m,notes,sensor_id,unit,n_days,n_usable
+la_serena,primary,290004,"La Florida, La Serena Ad.",DMC,-29.91444,-71.20667,146.0,29.0,4.2,117.0,,290004,mm,32,30
+coquimbo,primary,290004,"La Florida, La Serena Ad.",DMC,-29.91444,-71.20667,146.0,25.0,13.5,121.0,,290004,mm,32,30
+vicuna,primary,300046,"Vicuña, Parque Los Pimientos",DMC,-30.03361,-70.69722,642.0,620.0,1.1,22.0,,300046,mm,32,30
+vicuna,neighbour,300034,El Tololo,DMC,-30.16833,-70.80361,2154.0,620.0,17.7,1534.0,loose match: 18 km from the city; elevation gap +1534 m vs the model cell,300034,mm,32,30
+andacollo,primary,300034,El Tololo,DMC,-30.16833,-70.80361,2154.0,1011.0,27.9,1143.0,loose match: 28 km from the city; elevation gap +1143 m vs the model cell,300034,mm,32,30
+ovalle,primary,300024,Ovalle Escuela Agrícola,DMC,-30.58,-71.18667,310.0,254.0,2.4,56.0,,300024,mm,32,30
+ovalle,neighbour,300047,"Monte Patria, Municipalidad",DMC,-30.69833,-70.95778,406.0,254.0,25.7,152.0,loose match: 26 km from the city,300047,mm,32,30
+monte_patria,primary,300047,"Monte Patria, Municipalidad",DMC,-30.69833,-70.95778,406.0,428.0,0.4,-22.0,,300047,mm,32,30
+monte_patria,neighbour,300024,Ovalle Escuela Agrícola,DMC,-30.58,-71.18667,310.0,428.0,25.3,-118.0,loose match: 25 km from the city,300024,mm,32,30
+combarbala,primary,310024,Liceo Samuel Román Rojas (Combarbalá),DMC,-31.18806,-70.99889,936.0,879.0,1.2,57.0,,310024,mm,32,28
+illapel,primary,310040,"Vivero Conaf, Illapel",DMC,-31.6325,-71.15194,333.0,312.0,1.3,21.0,,310040,mm,32,23
+salamanca,neighbour,310040,"Vivero Conaf, Illapel",DMC,-31.6325,-71.15194,333.0,507.0,24.0,-174.0,loose match: 24 km from the city,310040,mm,32,23
+valparaiso,neighbour,330007,"Rodelillo, Ad.",DMC,-33.06528,-71.55639,335.0,8.0,6.3,327.0,elevation gap +327 m vs the model cell,330007,mm,32,30
+valparaiso,neighbour,330006,"Jardín Botánico (ex Parque Fauna), Viña del Mar",DMC,-33.045,-71.50194,50.0,8.0,11.0,42.0,,330006,mm,32,30
+valparaiso,neighbour,320041,Viña del Mar  Ad. (Torquemada),DMC,-32.94944,-71.47611,140.0,8.0,17.2,132.0,loose match: 17 km from the city,320041,mm,32,28
+santiago,primary,330020,"Quinta Normal, Santiago",DMC,-33.445,-70.68278,520.0,534.0,0.9,-14.0,,330020,mm,32,30
+santiago,neighbour,330114,San Pablo - DASA,DMC,-33.44222,-70.74667,490.0,534.0,6.9,-44.0,,330114,mm,32,30
+santiago,neighbour,330021,Pudahuel Santiago,DMC,-33.37833,-70.78778,474.0,534.0,13.1,-60.0,,330021,mm,32,30
+santiago,neighbour,330122,"Aguas Andinas, La Florida",DMC,-33.545,-70.54833,670.0,534.0,15.9,136.0,loose match: 16 km from the city,330122,mm,32,30
+santiago,neighbour,330118,Lo Pinto,DMC,-33.26805,-70.73222,512.0,534.0,20.6,-22.0,loose match: 21 km from the city,330118,mm,32,20
+santiago,neighbour,330111,Lo Prado Cerro San Francisco,DMC,-33.45806,-70.94861,1068.0,534.0,25.6,534.0,loose match: 26 km from the city; elevation gap +534 m vs the model cell,330111,mm,32,30
+santiago,neighbour,330071,Talagante,DMC,-33.67028,-70.84944,390.0,534.0,29.7,-144.0,loose match: 30 km from the city,330071,mm,32,29
+rancagua,neighbour,340045,Rancagua,DMC,-34.17222,-70.77611,482.0,505.0,3.2,-23.0,,340045,mm,32,30
+rancagua,neighbour,340093,Portezuelo-Codelco,DMC,-34.19833,-70.57917,1185.0,505.0,15.2,680.0,loose match: 15 km from the city; elevation gap +680 m vs the model cell,340093,mm,32,28
+rancagua,neighbour,340048,Quimávida,DMC,-34.215,-70.99694,316.0,505.0,24.0,-189.0,loose match: 24 km from the city,340048,mm,29,17
+curico,primary,340031,"General Freire, Curicó Ad.",DMC,-34.96944,-71.21694,229.0,209.0,2.5,20.0,,340031,mm,31,26
+talca,neighbour,350028,Panguilemo,DMC,-35.37778,-71.60111,119.0,100.0,7.3,19.0,,350028,mm,32,30
+chillan,primary,360011,"General Bernardo O'Higgins, Chillán Ad.",DMC,-36.58583,-72.03667,152.0,121.0,6.5,31.0,,360011,mm,32,27
+chillan,neighbour,360097,Liceo Polivalente San Nicolás,DMC,-36.50556,-72.21944,118.0,121.0,15.3,-3.0,loose match: 15 km from the city,360097,mm,32,30
+concepcion,primary,360019,"Carriel Sur, Concepción Ap.",DMC,-36.78055,-73.06639,8.0,22.0,5.4,-14.0,,360019,mm,32,30
+temuco,neighbour,380013,"Maquehue, Temuco Ad.",DMC,-38.76778,-72.63194,93.0,112.0,5.1,-19.0,,380013,mm,32,30
+temuco,neighbour,380032,Rucamanque-UFRO,DMC,-38.66083,-72.60556,344.0,112.0,8.5,232.0,,380032,mm,32,30
+temuco,neighbour,380033,Maquehue-UFRO,DMC,-38.83778,-72.69444,74.0,112.0,14.5,-38.0,,380033,mm,32,30
+temuco,neighbour,380029,La Araucanía Ad.,DMC,-38.93444,-72.65333,98.0,112.0,22.7,-14.0,loose match: 23 km from the city,380029,mm,32,29
+valdivia,neighbour,390015,Isla Teja  (Universidad Austral Valdivia),DMC,-39.79944,-73.25833,15.0,12.0,1.9,3.0,,390015,mm,32,27
+valdivia,neighbour,390043,Corral ESSAL,DMC,-39.89,-73.42611,24.0,12.0,17.5,12.0,loose match: 18 km from the city,390043,mm,18,6
+valdivia,neighbour,390006,"Pichoy, Valdivia Ad.",DMC,-39.65667,-73.08722,18.0,12.0,22.1,6.0,loose match: 22 km from the city,390006,mm,32,20
+osorno,primary,400013,Juan Kalt Bode (Fundación Adolfo Matthei),DMC,-40.59056,-73.11222,53.0,36.0,2.5,17.0,,400013,mm,32,30
+puerto_montt,primary,410027,"Escuela Mirasol, Puerto Montt",DMC,-41.47944,-72.96889,100.0,10.0,2.4,90.0,,410027,mm,32,27
+puerto_montt,neighbour,410005,El Tepual  Puerto Montt Ap.,DMC,-41.4475,-73.09583,90.0,10.0,13.0,80.0,,410005,mm,32,30
+puerto_montt,neighbour,410040,Puerto Varas ESSAL,DMC,-41.32444,-72.97667,70.0,10.0,16.3,60.0,loose match: 16 km from the city,410040,mm,32,30

@@ -1,0 +1,8 @@
+test,group_a,n_a,median_a_pc,group_b,n_b,median_b_pc,spearman
+coastal vs interior,coastal,7,8.248767758770681,interior,14.0,32.70307056035231,
+excess vs lat,,21,,,,,0.36623376623376624
+excess vs gauge_elev_m,,21,,,,,0.17927899613939144
+excess vs cell_elev_m,,21,,,,,0.12536538498153096
+excess vs gauge_dist_km,,21,,,,,0.2468334004817708
+excess vs station_mm,,21,,,,,-0.08704125174883497
+excess vs n_gauges,,21,,,,,0.32546237683216994
